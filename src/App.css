@@ -1,0 +1,108 @@
+/* color scheme is not well thought */
+
+.card {
+  min-height: 40px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.node-panel {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 0.3s ease;
+  padding: 10px;
+  width: 30vw;
+}
+
+.card-header {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+  background: rgb(152, 152, 241);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+
+.dndflow {
+  display: flex;
+  height: 92vh;
+  width: 100vw;
+}
+
+.reactflow-wrapper {
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.node-field {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+}
+
+.node-panel-header {
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+}
+
+.node-panel-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  flex: 1;
+}
+
+.node-panel-header button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.header {
+  padding: 8px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #e3eff7;
+  color: black;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100vw;
+  height: 8vh;
+}
+
+.header-button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 40px;
+  background-color: rgb(104, 104, 247);
+  color: white;
+  font-weight: bold;
+}
